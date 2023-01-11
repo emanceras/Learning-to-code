@@ -1,0 +1,10 @@
+let name = "Eduardo";
+let surname = "Manceras";
+let estudiante = name.concat(" ").concat(surname);
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+var charNumber = estudiante.length;
+var firstCharName = name.charAt(0);
+var lastCharSurname = surname.slice(-1);
+let withoutSpaces = estudiante.replace(/ /g, '');
+var nameTrue = estudiante.startsWith(name);
